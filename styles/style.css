@@ -5,5 +5,9 @@
 }
 
 body {
-    background-color: rgb(130, 131, 131);
+    background-color: rgb(118, 119, 119);
+}
+
+h1 {
+    color: antiquewhite;
 }

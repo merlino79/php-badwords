@@ -8,9 +8,13 @@
   <title>first_php</title>
 </head>
 <body>
-<p>
-  ciao
-</p>
+
+<?php
+$nome = 'alessandro';
+?>
+
+<h1>ciao <?php echo $nome ?></h1>
+
 
 
 
@@ -23,9 +27,12 @@
 <!-- php -->
 <h1>
 <?php
-echo 'ciao arsenè'
+echo 'ciao arsenè benvenuto'
 ?>
+
 </h1>
+
+
   
 </body>
 </html>

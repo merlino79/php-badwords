@@ -19,7 +19,7 @@ Sembra che Leblanc si sia ispirato per questo suo personaggio alla vita di Alexa
 
 ?>
 
-<h1>prove  <?php echo $nome ?></h1>
+<h1>ciao  <?php echo $nome ?></h1>
 <p class="color">
 <?php
 echo $testo

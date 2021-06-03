@@ -30,6 +30,16 @@ $stringaDaModificare = 'ciao come stai?';
 ?>
 
 <p>modifica: <?php echo str_replace('come', 'cosa', $stringaDaModificare) ?></p>
+<h1>
+  prova get
+</h1>
+
+<?php
+$nome = $_get['nome'];
+
+?>
+
+<h2>ciao <?php echo $nome  ?></h2>
 
 
 

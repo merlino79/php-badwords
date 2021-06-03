@@ -9,6 +9,15 @@
 </head>
 <body>
 
+<h1>
+  prova get
+</h1>
+<?php
+  $name = $_GET['name']
+?>
+<h3>ciao <?php echo $name?></h3>
+
+
 <?php
 $nome = 'alessandro';
 $testo = "Arsenio Lupin (in francese Arsène Lupin) è un personaggio letterario ideato da Maurice Leblanc nel 1905. È un ladro gentiluomo protagonista di numerosi romanzi dei quali sono state realizzate trasposizioni cinematografiche e televisive. Ha ispirato il famoso manga Lupin III.
@@ -25,6 +34,8 @@ Sembra che Leblanc si sia ispirato per questo suo personaggio alla vita di Alexa
 echo $testo
 ?>
 </p>
+
+
 
 
 

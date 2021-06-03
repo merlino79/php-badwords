@@ -35,7 +35,7 @@ $stringaDaModificare = 'ciao come stai?';
 </h1>
 
 <?php
-$nome = $_get['nome'];
+$nome = $_GET['nome'];
 
 ?>
 

@@ -13,9 +13,11 @@
   prova get
 </h1>
 <?php
-  $name = $_GET['name']
+  $name = $_GET['name'];
+  $cognome = $_GET['cognome'];
+
 ?>
-<h3>ciao <?php echo $name?></h3>
+<h3>ciao <?php echo $name . ' ' . $cognome?></h3>
 
 
 <?php

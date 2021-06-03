@@ -9,5 +9,9 @@ body {
 }
 
 h1 {
-    color: antiquewhite;
+    color: rgb(250, 222, 186);
+}
+
+.color {
+    color: rgb(80, 56, 56);
 }

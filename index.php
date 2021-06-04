@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>first_php</title>
+ 
+  <title>badwords</title>
 </head>
 <body>
 
@@ -24,17 +24,20 @@ Sembra che Leblanc si sia ispirato per questo suo personaggio alla vita di Alexa
 ?>
 
 <h3>
-da wiki: <br>
+da wiki :
+
+</h3>
+<p>
 <?php 
   echo $testo;
 ?>
-</h3>
+</p>
 
 
 
 <p>
 
-la lunghezza del testo è:
+<strong>la lunghezza del testo è:</strong>
 <?php 
  echo  strlen($testo);
 ?>
@@ -46,7 +49,7 @@ la lunghezza del testo è:
 la parola sa sostituire è : 
 <?php
 
-  $mondo= $_GET['arsenio'];//le quadre perchè va dentro un valore
+  $search= $_GET['arsenè'];//le quadre perchè va dentro un valore
   echo $mondo;
 ?>
 
@@ -54,9 +57,9 @@ la parola sa sostituire è :
 </p>
 
 <p>
-testo sostituito:
+<strong>testo sostituito:</strong>
 <?php
-  $testoModificato = str_replace($mondo,  '***', $testo);
+  $testoModificato = str_replace($search,  '***', $testo);
   echo $testoModificato;
 ?>
 </p>

@@ -27,9 +27,12 @@ Sembra che Leblanc si sia ispirato per questo suo personaggio alla vita di Alexa
 
 <?php
 $stringaDaModificare = 'ciao come stai?';
+$stringaDaModificareDue = 'per cui Leblanc scriveva in quel momento.';
 ?>
 
 <p>modifica: <?php echo str_replace('come', 'cosa', $stringaDaModificare) ?></p>
+
+<p>frase modificata dal test  <?php echo str_replace('per', 'succhia', $stringaDaModificareDue)?></p>
 <h1>
   prova get
 </h1>

@@ -9,19 +9,12 @@
 </head>
 <body>
 
-<h1>
-  prova get
-</h1>
-<?php
-  $name = $_GET['name'];
-  $cognome = $_GET['cognome'];
 
-?>
-<h3>ciao <?php echo $name . ' ' . $cognome?></h3>
+
 
 
 <?php
-$nome = 'alessandro';
+
 $testo = "Arsenio Lupin (in francese Arsène Lupin) è un personaggio letterario ideato da Maurice Leblanc nel 1905. È un ladro gentiluomo protagonista di numerosi romanzi dei quali sono state realizzate trasposizioni cinematografiche e televisive. Ha ispirato il famoso manga Lupin III.
 
 Illustrazione di H. Richard Boehm, Doubleday, 1909
@@ -30,10 +23,41 @@ Sembra che Leblanc si sia ispirato per questo suo personaggio alla vita di Alexa
 
 ?>
 
-<h1>ciao  <?php echo $nome ?></h1>
-<p class="color">
+<h3>
+da wiki: <br>
+<?php 
+  echo $testo;
+?>
+</h3>
+
+
+
+<p>
+
+la lunghezza del testo è:
+<?php 
+ echo  strlen($testo);
+?>
+</p>
+
+
+<p>
+<!-- nell'url la parola chiave è ladro  -->
+la parola sa sostituire è : 
 <?php
-echo $testo
+
+  $mondo= $_GET['arsenio'];//le quadre perchè va dentro un valore
+  echo $mondo;
+?>
+
+
+</p>
+
+<p>
+testo sostituito:
+<?php
+  $testoModificato = str_replace($mondo,  '***', $testo);
+  echo $testoModificato;
 ?>
 </p>
 
@@ -53,13 +77,9 @@ echo $testo
 
 
 
-<!-- php inizio -->
-<h1>
-<?php
-echo 'ciao arsenè benvenuto'
-?>
 
-</h1>
+
+
 
 
   
